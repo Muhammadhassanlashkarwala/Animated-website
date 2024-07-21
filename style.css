@@ -1,8 +1,12 @@
+@font-face {
+    font-family: neu;
+    src: url(./NeueHaasDisplayMediu.ttf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: neu;
 }
 html , body{
     height: 100%;
@@ -10,12 +14,13 @@ html , body{
 }
 #page1{
     background: #EFEAE3;
+    padding: 0 2vw;
     height: 100vh;
     width: 100%;
     position: relative;
 }
 nav{
-    padding: 2vw 2vw;
+    padding: 2vw 0vw;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -64,5 +69,20 @@ nav{
 #center{
     height: 65vh;
     width: 100%;
-    background: orange;
+    /* background: orange; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 1px solid #0000003c;
+    padding-bottom: 2.5vw;
+}
+#left h3{
+    width: 25vw;
+    font-size: 1.8vw;
+    line-height: 2vw;
+}
+#right h1{
+    font-size: 10vw;
+    line-height: 8vw;
+    text-align: right;
 }
