@@ -73,7 +73,7 @@ nav{
     align-items: flex-end;
     justify-content: space-between;
     border-bottom: 1px solid #0000003c;
-    padding-bottom: 2.5vw;
+    padding-bottom: 3vw;
 }
 #left h3{
     width: 25vw;
@@ -104,6 +104,7 @@ nav{
     position: absolute;
     border-bottom-left-radius: 50%;
     border-top-left-radius: 50%;
+    /* border-top-right-radius: 20%; */
     background: #FE330A;
     filter: blur(10px);
 }
@@ -115,7 +116,7 @@ nav{
     background: linear-gradient(#FE330A , #fe570a);
     filter: blur(25px);
     animation-name:  anime2;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -128,7 +129,7 @@ nav{
     background: linear-gradient(#FE330A , #fe570a);
     filter: blur(25px);
     animation-name:  anime;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
