@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'gilroy';
+    font-family: sans-serif;
 }
 html , body{
     height: 100%;
@@ -16,9 +16,7 @@ html , body{
 }
 nav{
     padding: 2vw 2vw;
-    /* height: 100px; */
     width: 100%;
-    /* background: red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,7 +62,7 @@ nav{
     color: #fff;
 }
 #center{
-    height: 50vh;
+    height: 65vh;
     width: 100%;
     background: orange;
 }
