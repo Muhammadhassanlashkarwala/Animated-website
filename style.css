@@ -150,3 +150,25 @@ nav{
         transform: translate(-20% , 30%);
     }
 }
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    background: #EFEAE3;
+}
+/* #moving-text{
+    display: inline-block;
+} */
+.con{
+
+}
+#moving-text h1{
+ font-size: 9vw;
+ background: lightblue;
+ display: inline-block;
+}
+.circle{
+    width: 70px ;
+    height: 70px;
+    background: #FE330A;
+    border-radius: 50%;
+}
