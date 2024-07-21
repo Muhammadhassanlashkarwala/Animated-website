@@ -69,7 +69,6 @@ nav{
 #center{
     height: 65vh;
     width: 100%;
-    /* background: orange; */
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -90,4 +89,40 @@ nav{
     width: 100%;
     margin-top: 4vw;
     border-radius: 30px;
+}
+#hero-shape{
+    position: absolute;
+    width: 42vw;
+    height: 32vw;
+    right: 0;
+    top: 65vh;
+}
+#hero-1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    background: #FE330A;
+    filter: blur(20px);
+}
+#hero-2{
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    position: absolute;
+    /* border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%; */
+    background: #FE330A;
+    filter: blur(20px);
+}
+#hero-3{
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    position: absolute;
+    /* border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%; */
+    background: #FE330A;
+    filter: blur(20px);
 }
