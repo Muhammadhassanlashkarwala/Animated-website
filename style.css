@@ -88,6 +88,7 @@ nav{
 #page1 video{
     width: 100%;
     margin-top: 4vw;
+    position: relative;
     border-radius: 30px;
 }
 #hero-shape{
@@ -104,7 +105,7 @@ nav{
     border-bottom-left-radius: 50%;
     border-top-left-radius: 50%;
     background: #FE330A;
-    filter: blur(20px);
+    filter: blur(10px);
 }
 #hero-2{
     height: 30vw;
@@ -114,7 +115,7 @@ nav{
     background: linear-gradient(#FE330A , #fe570a);
     filter: blur(25px);
     animation-name:  anime2;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
