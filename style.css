@@ -104,7 +104,6 @@ nav{
     position: absolute;
     border-bottom-left-radius: 50%;
     border-top-left-radius: 50%;
-    /* border-top-right-radius: 20%; */
     background: #FE330A;
     filter: blur(10px);
 }
@@ -154,16 +153,25 @@ nav{
     min-height: 100vh;
     width: 100%;
     background: #EFEAE3;
+    padding: 8vw 0;
 }
-/* #moving-text{
-    display: inline-block;
-} */
+#moving-text{
+    white-space: nowrap;
+    overflow-x: auto;
+}
+#moving-text::-webkit-scrollbar{
+    display: none;
+}
 .con{
-
+white-space: nowrap;
+display: inline-block;
+animation-name: move;
+animation-duration: 11s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
 }
 #moving-text h1{
  font-size: 9vw;
- background: lightblue;
  display: inline-block;
 }
 .circle{
@@ -171,4 +179,14 @@ nav{
     height: 70px;
     background: #FE330A;
     border-radius: 50%;
+    display: inline-block;
+    margin: 1vw 2vw;
+}
+@keyframes move {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
 }
