@@ -15,7 +15,7 @@ html , body{
 #page1{
     background: #EFEAE3;
     padding: 0 2vw;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     position: relative;
 }
@@ -85,4 +85,9 @@ nav{
     font-size: 10vw;
     line-height: 8vw;
     text-align: right;
+}
+#page1 video{
+    width: 100%;
+    margin-top: 4vw;
+    border-radius: 30px;
 }
