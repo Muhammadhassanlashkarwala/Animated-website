@@ -154,6 +154,7 @@ nav{
     width: 100%;
     background: #EFEAE3;
     padding: 8vw 0;
+    position: relative;
 }
 #moving-text{
     white-space: nowrap;
@@ -193,24 +194,56 @@ animation-iteration-count: infinite;
 #page2-bottom{
     height: 90vh;
     width: 100%;
-    /* background: aliceblue; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 4.5vw;
+    position: relative;
+    z-index: 9;
 }
 #page2-bottom h1{
     font-size: 4vw;
-    width: 57%;
+    width: 58%;
     line-height: 4vw;
 }
 #bottompart-2{
     width: 20%;
     margin-top: 18vw;
-    /* background: aqua; */
 }
 #bottompart-2 img{
     width: 100%;
     border-radius: 15px;
     margin-bottom: 2vw;
+}
+
+#page2 #gooey{
+    width: 32vw;
+    height: 32vw;
+    background: linear-gradient(to top right ,#fe0a0a , #ff8d0b);
+    /* background: linear-gradient(to top right , red , blue); */
+    position: absolute;
+    border-radius: 50%;
+    top: 58%;
+    left: 25%;
+    filter: blur(20px);
+    animation-name: gooey;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes gooey {
+    from{
+        filter: blur(20px);
+        transform: translate(10% ,-10%) skew(0);
+    }
+    to{
+        filter: blur(30px);
+        transform: translate(-10%, 10%) skew(-12deg);
+    }
+}
+#page3{
+    width: 100%;
+    height: 100vh;
+    background: #EFEAE3;
 }
