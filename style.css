@@ -190,3 +190,27 @@ animation-iteration-count: infinite;
         transform: translateX(-100%);
     }
 }
+#page2-bottom{
+    height: 90vh;
+    width: 100%;
+    /* background: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4.5vw;
+}
+#page2-bottom h1{
+    font-size: 4vw;
+    width: 57%;
+    line-height: 4vw;
+}
+#bottompart-2{
+    width: 20%;
+    margin-top: 18vw;
+    /* background: aqua; */
+}
+#bottompart-2 img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 2vw;
+}
