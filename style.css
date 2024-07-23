@@ -279,7 +279,7 @@ animation-iteration-count: infinite;
 #fixed-image{
     height: 30vw;
     width: 24vw;
-   background: red;
+   background: white;
    border-radius: 10px;
    position: fixed;
    z-index: 99;
@@ -289,6 +289,3 @@ animation-iteration-count: infinite;
    background-image: cover;
    background-position: center;
 }
-/* #elem-container{
-    background: red;
-} */
