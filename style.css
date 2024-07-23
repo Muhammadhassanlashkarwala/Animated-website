@@ -252,8 +252,6 @@ animation-iteration-count: infinite;
     height: 140px;
     width: 100%;
     position: relative;
-    /* background: orange; */
-    /* border-top: 1px solid black; */
     border-bottom: 1px solid #38383864;
     display: flex  ;
     overflow: hidden;
@@ -269,7 +267,7 @@ animation-iteration-count: infinite;
 .elem .overlay{
     height: 100%;
     width: 100%;
-    background: orange;
+    background: #FF9831;
     position: absolute;
     left: 0;
     top: -100%;
@@ -278,3 +276,19 @@ animation-iteration-count: infinite;
 .elem:hover .overlay{
  top: 0;
 }
+#fixed-image{
+    height: 30vw;
+    width: 24vw;
+   background: red;
+   border-radius: 10px;
+   position: fixed;
+   z-index: 99;
+   left: 50%;
+   display: none;
+   top: 25%;
+   background-image: cover;
+   background-position: center;
+}
+/* #elem-container{
+    background: red;
+} */
