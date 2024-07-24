@@ -360,6 +360,7 @@ animation-iteration-count: infinite;
 }
 #lefts h1{
     font-size: 5vw;
+    cursor: pointer;
 }
 #lefts .changeColor{
     color: #504A45;
