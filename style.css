@@ -12,6 +12,11 @@ html , body{
     height: 100%;
     width: 100%;
 }
+#main{
+    /* background: black; */
+    z-index: 10;
+    position: relative;
+}
 #page1{
     background: #EFEAE3;
     padding: 0 2vw;
@@ -382,4 +387,60 @@ animation-iteration-count: infinite;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     /* border: 1px solid #EFEAE3; */
+}
+#page5{
+    height: 60vh;
+    width: 100%;
+    background: #EFEAE3;
+}
+#page6{
+    height: 100vh;
+    width: 100%;
+    /* background: #EFEAE3; */
+}
+#footer{
+    position: fixed;
+    z-index: 9;
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    color: white;
+    bottom: 0;
+    display: flex;
+    /* align-items: flex-end; */
+    flex-direction: column;
+    justify-content: flex-end;
+    /* padding: 0vw 3vw; */
+}
+#footer #footer-sundown {
+    font-size: 23vw;
+    align-items: center;
+    padding-left: 2vw;
+}
+#footer-div{
+    height: 35vh;
+    width: 100%;
+    /* background: red; */
+    background: #FE330A;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    align-items: center;
+    padding: 3vw 6vw 0vw 6vw;
+}
+/* #footer-div #hover{
+    cursor: pointer;
+}
+#footer-div #hover:hover{
+    color: #F3B4A2;
+} */
+#footer-bottom{
+    border-top: 1px solid #dadada;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2vw;
+    width: 100%;
+    /* padding: 0vw 3vw; */
 }
