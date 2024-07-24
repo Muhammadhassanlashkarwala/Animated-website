@@ -3,7 +3,8 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
-let elemContainer = document.querySelector("#elem-container");
+function pagesAnimation() {
+    let elemContainer = document.querySelector("#elem-container");
 let fixImage = document.querySelector("#fixed-image");
 elemContainer.addEventListener("mouseenter" , () => {
     fixImage.style.display = "block"
@@ -19,8 +20,10 @@ elems.forEach(function(e){
      fixImage.style.backgroundImage = `url(${image})`
     })
 });
+}
 
-let changeColor = document.getElementById("changeColor");
+function pagechangeImages() {
+    let changeColor = document.getElementById("changeColor");
 let changeColors = document.getElementById("changeColors");
 let designChange = document.getElementById("designChange");
 let paraChange = document.getElementById("parachange")
@@ -47,13 +50,19 @@ designChange.addEventListener("click", ()=>{
     changeColors.style.color = "#504A45";
     paraChange.innerHTML = 'Our team works with our clients to refine an idea and concept into an executable design. We create a final design that encompasses the brand narrative to bring stories to life and provide end-to-end design solutions from concept, design, and architectural drawings to 3D renderings.'
 }) ;
+}
 
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: "auto",
-    centeredSlides: true,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+function swiperAnimation() {
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        centeredSlides: true,
+        spaceBetween: 100,
+        // pagination: {
+        //   el: ".swiper-pagination",
+        //   clickable: true,
+        // },
+      });
+}
+swiperAnimation()
+pagechangeImages()
+pagesAnimation()

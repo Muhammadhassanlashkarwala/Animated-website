@@ -391,6 +391,7 @@ animation-iteration-count: infinite;
 #page5{
     height: 70vh;
     width: 100%;
+    padding: 9vw 2vw;
     background: #EFEAE3;
 }
 .swiper {
@@ -399,32 +400,12 @@ animation-iteration-count: infinite;
   }
 
   .swiper-slide {
-    text-align: center;
     font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0 2vw;
+    border-left: 1px solid #aeadad;
+    width: 25%;
   }
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .swiper-slide {
-    width: 60%;
-  }
-
-  .swiper-slide:nth-child(2n) {
-    width: 40%;
-  }
-
-  .swiper-slide:nth-child(3n) {
-    width: 20%;
-  }
 
 #page6{
     height: 100vh;
