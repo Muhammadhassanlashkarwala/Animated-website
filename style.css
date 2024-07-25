@@ -30,6 +30,11 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 100;
+}
+nav h3{
+    display: none;
 }
 #navpart-2{
     display: flex;
@@ -476,4 +481,126 @@ animation-iteration-count: infinite;
 #footer-bottom a{
     text-decoration :double;
     color: white;
+}
+#full-scr{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    background: #00000070;
+    top: -100%;
+    transition: all ease 0.5s;
+}
+#fulldiv-1{
+    height: 50%;
+    width: 100%;
+    background: #EFEAE3;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+@media (max-width:600px) {
+    /* #page1{
+        background: red;
+    } */
+    #page1{
+        padding: 0 0vw;
+        min-height: 100vh;
+        width: 100vw;
+    }
+    nav{
+        padding: 8vw 5vw;
+        background: #EFEAE3;
+    }
+    nav img{
+        height: 9vh;
+        transition: all ease 0.2s;
+    }
+    nav h3{
+        display: block;
+        padding: 3vw 5vw;
+        padding-left: 10vw;
+        border: 1px solid #ababab;
+        border-radius: 50px;
+        font-size: 4vw;
+        font-weight: 200;
+    }
+    #navpart-2{
+        display: none;
+    }
+    #center{
+        height: 62vh;
+        width: 100%;
+        display: flex;
+        /* background: orange; */
+        align-items: flex-end;
+        justify-content: space-between;
+        border-bottom: 1px solid #0000003c;
+        padding: 7vw 5vw;
+        padding-bottom: 10vw;
+        flex-direction: column-reverse;
+        position: relative;
+        z-index: 9;
+    }
+    #left h3{
+        width: 80%;
+        font-size: 5.5vw;
+        line-height: 6vw;
+    }
+    #right h1{
+        font-size: 17vw;
+        line-height: 15vw;
+        text-align: right;
+    }
+    #page1 video{
+        width: 92%;
+        height: 70vh;
+        object-fit: cover;
+        object-position: center;
+        margin-top: 4vw;
+        margin-left: 4%;
+        position: relative;
+        border-radius: 15px;
+    }
+    #hero-shape{
+        position: absolute;
+        width: 42vw;
+        height: 32vw;
+        right: 0;
+        top: 65vh;
+    }
+    #hero-1{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        background: #FE330A;
+        filter: blur(10px);
+    }
+    #hero-2{
+        height: 30vw;
+        width: 30vw;
+        border-radius: 50%;
+        position: absolute;
+        background: linear-gradient(#FE330A , #fe570a);
+        filter: blur(25px);
+        animation-name:  anime2;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    #hero-3{
+        height: 30vw;
+        width: 30vw;
+        border-radius: 50%;
+        position: absolute;
+        background: linear-gradient(#FE330A , #fe570a);
+        filter: blur(25px);
+        animation-name:  anime;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
 }
