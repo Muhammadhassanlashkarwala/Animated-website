@@ -563,8 +563,8 @@ animation-iteration-count: infinite;
     }
     #hero-shape{
         position: absolute;
-        width: 42vw;
-        height: 32vw;
+        width: 82vw;
+        height: 76vw;
         right: 0;
         top: 65vh;
     }
@@ -600,6 +600,84 @@ animation-iteration-count: infinite;
         animation-name:  anime;
         animation-duration: 2s;
         animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    #page2{
+        min-height: 100vh;
+        width: 100%;
+        background: #EFEAE3;
+        padding: 8vw 0;
+        position: relative;
+    }
+    #moving-text{
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+    #moving-text::-webkit-scrollbar{
+        display: none;
+    }
+    .con{
+    white-space: nowrap;
+    display: inline-block;
+    animation-name: move;
+    animation-duration: 11s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    }
+    #moving-text h1{
+     font-size: 15vw;
+     display: inline-block;
+    }
+    .circle{
+        width: 25px ;
+        height: 25px;
+        background: #FE330A;
+        /* padding-top: 2vw; */
+        /* justify-content: center; */
+        border-radius: 50%;
+        display: inline-block;
+        margin: 2vw 2vw;
+    }
+    #page2-bottom{
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10vw 4vw;
+        position: relative;
+        z-index: 9;
+    }
+    #page2-bottom h1{
+        font-size: 8.2vw;
+        width: 100%;
+        line-height: 9vw;
+    }
+    #bottompart-2{
+        width: 70%;
+        margin-right: 28vw;
+        /* margin-top: 8vw; */
+    }
+    #bottompart-2 img{
+        width: 100%;
+        border-radius: 8px;
+        /* margin-bottom: 2vw; */
+    } 
+    #page2 #gooey{
+        width: 62vw;
+        height: 62vw;
+        background: linear-gradient(to top right ,#fe0a0a , #ff8d0b);
+        /* background: linear-gradient(to top right , red , blue); */
+        position: absolute;
+        border-radius: 50%;
+        top: 58%;
+        left: 25%;
+        filter: blur(20px);
+        animation-name: gooey;
+        animation-duration: 6s;
+        animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-direction: alternate;
     }
