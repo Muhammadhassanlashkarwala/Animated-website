@@ -391,7 +391,7 @@ animation-iteration-count: infinite;
 #page5{
     height: 70vh;
     width: 100%;
-    padding: 9vw 2vw;
+    padding: 8vw 2vw;
     background: #EFEAE3;
 }
 .swiper {
@@ -400,13 +400,20 @@ animation-iteration-count: infinite;
   }
 
   .swiper-slide {
-    font-size: 18px;
+    font-size: 16px;
     padding: 0 2vw;
     border-left: 1px solid #aeadad;
-    width: 25%;
+    width: 23%;
   }
-
-
+  .swiper-slide .imgWidth{
+    width: 10vw;
+  }
+  .swiper-slide  .totp{
+    padding-top: 1vw;
+  }
+  .swiper-slide .hunter{
+    padding-top: 0.4vw;
+  }
 #page6{
     height: 100vh;
     width: 100%;
