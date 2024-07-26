@@ -72,6 +72,10 @@ nav.addEventListener("click", ()=>{
     if (flag == 0) {
         full.style.top = 0 
     navImg.style.opacity = 0
+        // yahan pe likh sakte hen 
+        // <h1>WORK <br>
+        // STUDIO <br>
+        // CONTACT</h1>
     flag = 1
     }else{
         full.style.top = "-100%"
@@ -89,7 +93,6 @@ setTimeout(function(){
 
 swiperAnimation()
 pagechangeImages()
-loaderAnimation()
 pagesAnimation()
 menuAnimation()
-
+loaderAnimation()
