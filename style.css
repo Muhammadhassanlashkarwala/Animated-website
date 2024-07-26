@@ -36,6 +36,11 @@ nav{
 nav h3{
     display: none;
 }
+#menu-icon-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #navpart-2{
     display: flex;
     align-items: center;
