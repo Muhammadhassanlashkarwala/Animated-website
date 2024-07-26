@@ -78,7 +78,7 @@ nav.addEventListener("click", ()=>{
         // CONTACT</h1>
     flag = 1
     }else{
-        full.style.top = "-100%"
+        full.style.top = "-110%"
         navImg.style.opacity = 1
         flag = 0
     }
@@ -87,7 +87,7 @@ nav.addEventListener("click", ()=>{
 function loaderAnimation(){
     let loaderSet = document.querySelector("#loader")
 setTimeout(function(){
- loaderSet.style.top = "-100%"
+ loaderSet.style.top = "-110%"
 },4200)
 }
 
