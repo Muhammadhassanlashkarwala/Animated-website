@@ -768,7 +768,7 @@ animation-iteration-count: infinite;
        flex-direction: column;
     }
     #lefts{
-        height: 67vh;
+        height: 55vh;
         width: 94%;
         margin-left: 3%;
         padding: 12vw 14vw 8vw 14vw;
@@ -782,9 +782,10 @@ animation-iteration-count: infinite;
     }
     #lefts p{
         padding: 5vw 2vw 0vw 0vw;
+        font-size: 12px;
     }
     #rights{
-        height: 60vh;
+        height: 55vh;
         margin-bottom: 10vw ;
         width: 94%;
         margin-left: 3%;
@@ -819,5 +820,44 @@ animation-iteration-count: infinite;
       .swiper-slide .imgWidth{
         width: 33vw;
       }
-    
+      #footer{
+        position: fixed;
+        z-index: 9;
+        height: 100vh;
+        width: 100%;
+    }
+    #footer #footer-sundown {
+        font-size: 23vw;
+        height: 45vh;
+        padding-top: 15vh;
+        padding-left: 2vw;
+    }
+    #footer-div{
+        height: 55vh;
+        width: 100%;
+        background: #FE330A;
+        display: flex;
+        flex-direction: column;
+        padding-top: 22vw;
+       
+    }
+    #footer-div #hover{
+        padding-right: 65vw;
+        padding-bottom: 4vw;
+    }
+    #footer-div p{
+        padding-right: 13vw;
+        padding-bottom: 3vw;
+
+    }
+    #footer-bottom{
+        border-top: 1px solid #dadada;
+        height: 22vh;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        width: 100%;
+        padding: 0vw 5vw;
+        padding-top: 10vw;
+    }
 }
