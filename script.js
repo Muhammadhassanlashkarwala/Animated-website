@@ -63,11 +63,8 @@ function swiperAnimation() {
         // },
       });
 }
-swiperAnimation()
-pagechangeImages()
-pagesAnimation()
-
-let nav = document.querySelector("nav h3");
+function menuAnimation() {
+    let nav = document.querySelector("nav h3");
 let full = document.querySelector("#full-scr");
 let navImg = document.querySelector("nav img");
 let flag = 0
@@ -82,3 +79,17 @@ nav.addEventListener("click", ()=>{
         flag = 0
     }
 })
+}
+function loaderAnimation(){
+    let loaderSet = document.querySelector("#loader")
+setTimeout(function(){
+ loaderSet.style.top = "-100%"
+},4200)
+}
+
+swiperAnimation()
+pagechangeImages()
+loaderAnimation()
+pagesAnimation()
+menuAnimation()
+
