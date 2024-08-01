@@ -446,7 +446,21 @@ animation-iteration-count: infinite;
 #footer #footer-sundown {
     font-size: 23vw;
     align-items: center;
+    animation-name: anima;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
     padding-left: 2vw;
+}
+@keyframes anima {
+    from{
+        transform: translate(5% ,-5%);
+    }
+    to{
+        transform: translate(-5% ,5%);
+    }
+     
 }
 #footer-div{
     height: 35vh;
@@ -458,6 +472,7 @@ animation-iteration-count: infinite;
     /* text-align: center; */
     align-items: center;
     padding: 3vw 6vw 0vw 6vw;
+  
 }
 /* #footer-div #hover{
     cursor: pointer;
@@ -561,6 +576,8 @@ animation-iteration-count: infinite;
         opacity: 0;
     }
 }
+
+
 
 /* Media query Start */
 
@@ -841,6 +858,7 @@ animation-iteration-count: infinite;
         padding-top: 22vw;
        
     }
+  
     #footer-div #hover{
         padding-right: 65vw;
         padding-bottom: 4vw;
